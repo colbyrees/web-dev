@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Prata');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+	background-color: black;
+	background-image: linear-gradient(navy, deepskyblue);
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-right: 340px;
+	margin-left: 340px;
+	font-family: 'Prata', serif;
+	position: relative;
+	-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+img {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-right: 110px;
+	margin-left: 110px;
+}
+
+p {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-right: 350px;
+	margin-left: 350px;
+	height: 80px;
+    width: 42%;
+    background-color: navy;
+}
+
+ul {
+	margin-top: 50px;
+	margin-bottom: 100px;
+	margin-right: 490px;
+	margin-left: 490px;
+	background-color: navy;
+}
+
+a{
+	color: white;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.btn {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 25px;
+}
+
